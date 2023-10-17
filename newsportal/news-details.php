@@ -91,7 +91,7 @@ $currenturl="http://".$_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];;
 while ($row=mysqli_fetch_array($query)) {
 ?>
 
-          <div class="card mb-4">
+        <div class="card mb-4">
       
             <div class="card-body">
               <h2 class="card-title"><?php echo htmlentities($row['posttitle']);?></h2>
